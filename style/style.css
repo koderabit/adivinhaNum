@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/*
+font-family: 'Pacifico', cursive;
+*/
+body{
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+div.resultadoParas p{
+    text-align: center;
+}
+
+.gameBoard{
+    width: 60%;
+    max-width: 800px;
+    height: 480px;
+    margin: 0 auto;
+    padding: 5px 20px 5px 20px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to top, #FFFFFF, #DEEFE7);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.ultimoResultado{
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+input.campoPalpite{
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 10px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input.envioPalpite, .button, button{
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(108, 108, 219);
+    font-weight: bold;
+}
+
+.btnOff{
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: gray;   
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(46, 46, 46);
+}
